@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Noir Atelier</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Pantalla de entrada -->
+  <section class="entrada">
+    <div class="overlay"></div>
+    <h1 class="logo kapakana">Noir Atelier</h1>
+    <a href="#productos" class="btn-empezar" onclick="entrarATienda(event)">Entrar</a>
+  </section>
+
+  <!-- Tienda -->
+  <section id="productos" class="tienda">
+    <h2>Suéteres</h2>
+    <div class="producto">
+      <img src="assets/sueter1.png" alt="Suéter Noir">
+      <p>Este suéter guarda una historia.</p>
+    </div>
+    <div class="producto">
+      <img src="assets/sueter2.png" alt="Suéter Noir">
+      <p>Este suéter guarda una historia.</p>
+    </div>
+  </section>
+
+  <!-- Sonidos -->
+  <audio id="musica" src="assets/musica-relajada.mp3" loop></audio>
+  <audio id="sonido-pasos" src="assets/pasos.mp3" loop></audio>
+  <audio id="sonido-puerta" src="assets/puerta.mp3"></audio>
+
+  <script src="main.js"></script>
+</body>
+</html>
